@@ -7,9 +7,11 @@
 
 #include "Map.h"
 
-Map::Map(int w, int h) {
-    width = w;
-    height = h;
+Map::Map(string dir)
+{
+    
+    cout << "Test: dir is " << dir << endl;
+    
 }
 
 Map::Map(const Map& orig) {

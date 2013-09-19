@@ -8,9 +8,14 @@
 #ifndef MAP_H
 #define	MAP_H
 
+#include <string>
+#include "Game.h"
+
+using namespace std;
+
 class Map {
 public:
-    Map(int, int);
+    Map(string dir); // receives dir of map to load.
     Map(const Map& orig);
     virtual ~Map();
 private:

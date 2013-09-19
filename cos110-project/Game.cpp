@@ -69,6 +69,10 @@ void Game::Init()
     //eventually when a valid mapNumber is entered, the game loads the map and starts.
     cout << "load map" << mapNo << endl;
     
+    // now send the map directory as a string to the map class constructor.
+    Map map(maps[mapNo-1]);
+    
+    
     
 }
 

@@ -15,6 +15,7 @@
 #include <fstream>
 #include <sstream>
 #include "PieceType.h"
+#include "Map.h"
 
 using namespace std;
 
